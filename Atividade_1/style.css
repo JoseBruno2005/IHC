@@ -1,0 +1,141 @@
+body{
+    background-color: #cbd4d4;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.div-head{
+    background-color: #cbd4d4;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-section{
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 360px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section-slide {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    width: 500px;
+    height: 150px;
+    padding-right: 120px;
+}
+
+.section-slide.active {
+    display: block;
+    opacity: 1;
+    width: 500px;
+    height: 150px;
+    padding-right: 120px;
+    font-size: 15px;
+    color: #7c7d7d;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.section-slide.active h2{
+    font-family: "Varela Round", sans-serif;
+    color: red;
+}
+
+.section-slide.active h3{
+    font-family: "Varela Round", sans-serif;
+    color: black;
+}
+
+.section-slide.active ul li h3{
+    color: black;
+}
+
+.perfil img{
+    width: 250px;
+    height: 290px;
+    padding-left: 230px;
+    padding-top: 15px;
+}
+
+#dados_pessoais{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#dados_pessoais p{
+    padding-left: 20px;
+    font-weight: 100;
+    color: #7c7d7d;
+}
+
+#dados_pessoais div{
+    padding: 20px;
+}
+
+#dados_pessoais img{
+    width: 20px;
+    height: auto;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+#dados_pessoais a{
+    text-decoration: none;
+}
+
+.habilidades{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar ul{
+    display: flex;
+    padding-right: 100px;
+}
+
+.nav-bar ul li{
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 200;
+    font-family: "Varela Round", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-bar ul li :hover{
+    color: white;
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nome{
+    font-size: 15px;
+    padding-left: 130px;
+    font-family: "Varela Round", sans-serif;
+}
+
+.nome p{
+    color: #7c7d7d;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 18px;
+}
