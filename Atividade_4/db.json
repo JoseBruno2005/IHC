@@ -1,8 +1,21 @@
 {
-  "despesas": [],
+  "despesas": [
+    {
+      "id": "263b",
+      "obrigacaoFinanceira": "Aluguel",
+      "valor": "500",
+      "diaVencimento": "28"
+    },
+    {
+      "id": "7c69",
+      "obrigacaoFinanceira": "Água",
+      "valor": "125",
+      "diaVencimento": "22"
+    }
+  ],
   "usuario": [
     {
-      "salario": 850,
+      "salario": 750,
       "id": "4baf"
     }
   ]

@@ -94,7 +94,7 @@ const mostrarDespesas = (despesas) =>{
         const button = document.createElement('button');
         button.textContent = 'Pago';
         button.setAttribute('data-id', despesa.id);
-	button.classList.add('pago-button'); 
+	    button.classList.add('pago-button'); 
         
 
         button.addEventListener('click', ()=> deleteLinha(despesa.id))
